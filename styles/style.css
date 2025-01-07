@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "marianneRegular";
+  src: url("../fonts/Marianne/Marianne-Regular.otf");
+}
+
+@font-face {
+  font-family: "marianneExtraBold";
+  src: url("../fonts/Marianne/Marianne-ExtraBold.otf");
+}
+
+html {
+  background-color: #e8e8e8;
+  font-family: marianneRegular;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+#topMenu {
+  position: sticky;
+  top: 0px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  //border-top-left-radius: 8px;
+  //border-top-right-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  //box-shadow: 0px 2px 10px grey;
+  box-shadow: 0 20px 50px -20px rgb(0 0 0 / 50%);
+}
+
+#topMenu div {
+  padding: 0.4em;
+}
+
+#navBar {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#navBar div {
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+#navBar div:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+#nomEnHaut {
+  text-align: left;
+}
+
+#grosNom {
+  font-family: marianneExtraBold;
+  font-size: 2em;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+#grosNom:hover {
+  color: orange;
+}
+
+#petitNom {
+  font-size: 0.9em;
+}
+
+#ecolePhoto {
+  width: 80%;
+}
+
+#boutonDownload {
+  display: inline-block;
+  background: background: rgba(0, 0, 0, 0.45);
+  color: white;
+  backdrop-filter: blur(4px);
+  border-radius: 2px;
+  border: 1px dotted;
+  width: auto;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 2.5vw;
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+
+#boutonDownload:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  box-shadow: 0px 0px 10px white;
+}
+
+#textAuCentre {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  font-size: 2vw;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: white;
+  backdrop-filter: blur(3px);
+  padding: 1vw;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px black;
+}
+
+mark {
+  background-color: inherit;
+  color: inherit;
+  text-decoration: underline;
+}
+
+#triggerFlag {
+  width: 2em;
+  right: 2em;
+  position: fixed;
+}
+
+#boiteAPropos {
+  display: inline-block;
+  padding: 2em;
+  margin-top: -6vw;
+  background: linear-gradient(90deg, rgba(255, 169, 75, 1) 0%, rgba(255, 115, 0, 1) 100%);
+  border-radius: 2em;
+  width: 50%;
+  box-shadow: 0 20px 100px 0 rgb(0 0 0 / 15%);
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+#boiteAPropos:hover {
+  transform: translateY(-3%);
+}
+
+#flexEtapes {
+  display: flex;
+  padding: 2em;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.iconsLevees {
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.iconsLevees:hover {
+  transform: translateY(10%);
+  filter: invert(100%);
+}
+
+.doubleFlex {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-flow: row;
+  width: 80%;
+  text-align: center;
+  border: 0px;
+}
+
+.imagesProjets {
+  transition-property: all;
+  transition-duration: 0.5s;
+  object-fit: cover;
+  width: 50%;
+}
+
+.imagesProjets:hover {
+  filter: brightness(120%);
+}
+
+.boiteLateraleDroite {
+  text-align: left;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(255, 169, 75, 1) 0%, rgba(255, 115, 0, 1) 100%);
+  transition-property: all;
+  transition-duration: 0.5s;
+  padding: 4em;
+}
+
+.boiteLateraleGauche {
+  text-align: right;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(255, 169, 75, 1) 0%, rgba(255, 115, 0, 1) 100%);
+  transition-property: all;
+  transition-duration: 0.5s;
+  padding: 4em;
+}
+
+.boutonSmooth {
+  padding: 0.5em;
+  display: inline-block;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 6px;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+.boutonSmooth:hover {
+  cursor: pointer;
+  box-shadow: inset 14px 14px 28px #bf7000,
+            inset -14px -14px 28px #ffba00;
+}
+
+.boutonSmooth:active {
+  box-shadow: inset 17px 17px 34px #bf7000,
+              inset -17px -17px 34px #ffba00;
+}
+
+#competences {
+  width:80%;
+  height:inherit;
+  margin: auto;
+  padding: 1vw;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0px 0px 10px black;
+}
+
+.cls-1{
+  /*position: relative;*/ /*les .picto-item deviennent référents*/
+  cursor: help;
+  fill:rgba(255, 255, 255, 0);
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+
+.cls-1:hover {
+  stroke-width:3;
+  stroke:black;
+  opacity: 0;
+}
+
+
+#infoBulle{
+  position:absolute;
+  z-index: 32;
+  background: rgba(0, 0, 0, 0.05);
+  color: black;
+  backdrop-filter: blur(4px);
+  border-radius: 2px;
+  border: 0.5px dotted;
+  width: auto;
+  padding: 0.2em;
+  font-size: 1.2vw;
+  visibility: hidden;
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3840.78 2271.97">
+    <defs>
+        <style>.cls-1{fill:aqua;}</style>
+    </defs>
+    <g id="imgs">
+        <image width="1300" height="769" transform="scale(2.95)" xlink:href="medias/fondmapfr.jpg"/>
+    </g>
+    <g id="squares">
+        <rect class="cls-1" x="422.07" y="459.32" width="125.42" height="31.48"/>
+        <rect class="cls-1" x="2953.68" y="259.7" width="201.29" height="33.83"/>
+        <rect class="cls-1" x="2953.68" y="353.38" width="331.35" height="33.83"/>
+        <rect class="cls-1" x="2953.68" y="632.09" width="291.48" height="33.83"/>
+        <rect class="cls-1" x="2953.68" y="727.31" width="184.65" height="33.83"/>
+        <rect class="cls-1" x="2953.68" y="822.54" width="243.87" height="33.83"/>
+        <rect class="cls-1" x="2953.68" y="917.76" width="340.26" height="33.83"/>
+        <rect class="cls-1" x="2953.68" y="1204.74" width="821.03" height="340.26"/>
+        <rect class="cls-1" x="390.58" y="529.52" width="156.9" height="156.9"/>
+        <rect class="cls-1" x="348.9" y="910.42" width="198.58" height="348.9"/>
+        <rect class="cls-1" x="159.61" y="1417.9" width="394.84" height="314.06"/>
+    </g>
+</svg>
